@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+  }
+  
+
+#container {
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(to bottom, #ff0000, #0000ff);
+    position: relative;
+  }
+  
+  #snake {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    position: absolute;
+  }
+  
+  #food {
+    width: 20px;
+    height: 20px;
+    background: #ff0;
+    position: absolute;
+  }
+  
+  #scores {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+
+  #snake-game{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+  #pause{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 4rem;
+    text-align: center;
+}
